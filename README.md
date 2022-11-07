@@ -20,7 +20,7 @@ public class Main {
 
         if(superModule.isEnabled()) {
             System.out.println("Super Module is enabled!"); // This time, it will print, because it is now enabled.
-            }
+        }
     }
 
     class Module extends EnabledHandler {
